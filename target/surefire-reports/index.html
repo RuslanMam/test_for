@@ -1,0 +1,2639 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-failed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>9 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">59 methods, 11 failed,  14 skipped,  34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Command_line_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_2" class="method navigator-link" hash-for-method="assertMethod2">assertMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_1" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Method_L_Test" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.ExtentReport_Test" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="selenium.SeleniumParallel3_Test" class="method navigator-link" hash-for-method="parallelM">parallelM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="selenium.SeleniumParallel2_Test" class="method navigator-link" hash-for-method="parallelM">parallelM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="selenium.SeleniumParallel3_Test" class="method navigator-link" hash-for-method="parallelSearch">parallelSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="selenium.SeleniumParallel_Test" class="method navigator-link" hash-for-method="parallelSearch">parallelSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Parameter_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="data_providers.DataProvider_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.DependentTestMethods_Test" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Command_line_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.HrmEmployeeTest" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.HrmJobsTest" class="method navigator-link" hash-for-method="addJobTitle">addJobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.AlertsTest" class="method navigator-link" hash-for-method="alertTest">alertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.WindowTabTest" class="method navigator-link" hash-for-method="handleNewBrowserWindow">handleNewBrowserWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.iFrameTest" class="method navigator-link" hash-for-method="iFrameTest">iFrameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="listViewTest">listViewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.iFrameTest" class="method navigator-link" hash-for-method="nestedIframeTest">nestedIframeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="verifyBasicStuff">verifyBasicStuff</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="verifyCity">verifyCity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="verifyFbTitle">verifyFbTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="verifyLogo">verifyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="Assertions.AssertionsPracticeTest" class="method navigator-link" hash-for-method="verifyMoreBasicStuff">verifyMoreBasicStuff</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.HrmLoginTest" class="method navigator-link" hash-for-method="verify_logIn_with_invalid_credentials">verify_logIn_with_invalid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="HRM.HrmLoginTest" class="method navigator-link" hash-for-method="verify_logIn_with_valid_credentials">verify_logIn_with_valid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_2" class="method navigator-link" hash-for-method="assertMethod">assertMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_1" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Method_L_Test" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Priority_Test" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.ExtentReport_Test" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_3" class="method navigator-link" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_3" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Priority_Test" class="method navigator-link" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_3" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_3" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="test_listeners.Test_3" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Priority_Test" class="method navigator-link" hash-for-method="method3">method3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.SingleMethodParallel_Test" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.SingleMethodParallel_Test" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.SingleMethodParallel_Test" class="method navigator-link" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testHPEliteOne">testHPEliteOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testIphone">testIphone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testMacBook">testMacBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.DependentTestMethods_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.PreserveOrder2_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.Parallel2_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.Parallel1_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.PreserveOrder1_Test" class="method navigator-link" hash-for-method="testMethod1">testMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.PreserveOrder1_Test" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.PreserveOrder2_Test" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.Parallel1_Test" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="paralleltesting.Parallel2_Test" class="method navigator-link" hash-for-method="testMethod2">testMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.DependentTestMethods_Test" class="method navigator-link" hash-for-method="testMethod3">testMethod3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Enable_Test" class="method navigator-link" hash-for-method="testMethod3">testMethod3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.DependentTestMethods_Test" class="method navigator-link" hash-for-method="testMethod4">testMethod4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Enable_Test" class="method navigator-link" hash-for-method="testMethod4">testMethod4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testSamsungNote">testSamsungNote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testSurfaceBook">testSurfaceBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="practice.Grouping_Test" class="method navigator-link" hash-for-method="testYoll">testYoll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.SeleniumParallel_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parallelSearch">
+                  </a> <!-- parallelSearch -->
+                  <span class="method-name">parallelSearch</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;search&apos; is required by @Test on method parallelSearch but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_listeners.ExtentReport_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test_listeners.ExtentReport_Test.method2(ExtentReport_Test.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_listeners.Test_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test_listeners.Test_1.method2(Test_1.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">practice.DependentTestMethods_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2] but found [3]
+	at practice.DependentTestMethods_Test.testMethod2(DependentTestMethods_Test.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.SeleniumParallel2_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parallelM">
+                  </a> <!-- parallelM -->
+                  <span class="method-name">parallelM</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;name&apos; is required by @Test on method parallelM but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_listeners.Test_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertMethod2">
+                  </a> <!-- assertMethod2 -->
+                  <span class="method-name">assertMethod2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test_listeners.Test_2.assertMethod2(Test_2.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test_listeners.Method_L_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at test_listeners.Method_L_Test.method2(Method_L_Test.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">practice.Parameter_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;response&apos; is required by @Test on method testMethod1 but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">data_providers.DataProvider_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Method public void data_providers.DataProvider_Test.testMethod1(java.lang.String) throws java.lang.InterruptedException requires a @DataProvider named : test-data in class data_providers.TestData2
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">selenium.SeleniumParallel3_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parallelM">
+                  </a> <!-- parallelM -->
+                  <span class="method-name">parallelM</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;name&apos; is required by @Test on method parallelM but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="parallelSearch">
+                  </a> <!-- parallelSearch -->
+                  <span class="method-name">parallelSearch</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;search&apos; is required by @Test on method parallelSearch but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.HrmJobsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addJobTitle">
+                  </a> <!-- addJobTitle -->
+                  <span class="method-name">addJobTitle</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.HrmJobsTest.setup(HrmJobsTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.AlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertTest">
+                  </a> <!-- alertTest -->
+                  <span class="method-name">alertTest</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.AlertsTest.setup(AlertsTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.iFrameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iFrameTest">
+                  </a> <!-- iFrameTest -->
+                  <span class="method-name">iFrameTest</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.iFrameTest.setup(iFrameTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nestedIframeTest">
+                  </a> <!-- nestedIframeTest -->
+                  <span class="method-name">nestedIframeTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at HRM.iFrameTest.tearDown(iFrameTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.HrmLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_logIn_with_invalid_credentials">
+                  </a> <!-- verify_logIn_with_invalid_credentials -->
+                  <span class="method-name">verify_logIn_with_invalid_credentials</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.HrmLoginTest.setup(HrmLoginTest.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_logIn_with_valid_credentials">
+                  </a> <!-- verify_logIn_with_valid_credentials -->
+                  <span class="method-name">verify_logIn_with_valid_credentials</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at HRM.HrmLoginTest.tearDown(HrmLoginTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.HrmEmployeeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee">
+                  </a> <!-- addEmployee -->
+                  <span class="method-name">addEmployee</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.HrmEmployeeTest.setup(HrmEmployeeTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Assertions.AssertionsPracticeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listViewTest">
+                  </a> <!-- listViewTest -->
+                  <span class="method-name">listViewTest</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBasicStuff">
+                  </a> <!-- verifyBasicStuff -->
+                  <span class="method-name">verifyBasicStuff</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCity">
+                  </a> <!-- verifyCity -->
+                  <span class="method-name">verifyCity</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFbTitle">
+                  </a> <!-- verifyFbTitle -->
+                  <span class="method-name">verifyFbTitle</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogo">
+                  </a> <!-- verifyLogo -->
+                  <span class="method-name">verifyLogo</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMoreBasicStuff">
+                  </a> <!-- verifyMoreBasicStuff -->
+                  <span class="method-name">verifyMoreBasicStuff</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Assertions.AssertionsPracticeTest.setup(AssertionsPracticeTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">HRM.WindowTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleNewBrowserWindow">
+                  </a> <!-- handleNewBrowserWindow -->
+                  <span class="method-name">handleNewBrowserWindow</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/main/resources/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at HRM.WindowTabTest.setup(WindowTabTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-skipped -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">paralleltesting.Parallel2_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_listeners.ExtentReport_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.Grouping_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHPEliteOne">
+                  </a> <!-- testHPEliteOne -->
+                  <span class="method-name">testHPEliteOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIphone">
+                  </a> <!-- testIphone -->
+                  <span class="method-name">testIphone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMacBook">
+                  </a> <!-- testMacBook -->
+                  <span class="method-name">testMacBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSamsungNote">
+                  </a> <!-- testSamsungNote -->
+                  <span class="method-name">testSamsungNote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSurfaceBook">
+                  </a> <!-- testSurfaceBook -->
+                  <span class="method-name">testSurfaceBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testYoll">
+                  </a> <!-- testYoll -->
+                  <span class="method-name">testYoll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">paralleltesting.Parallel1_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_listeners.Test_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertMethod">
+                  </a> <!-- assertMethod -->
+                  <span class="method-name">assertMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_listeners.Method_L_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.PreserveOrder1_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.Enable_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod3">
+                  </a> <!-- testMethod3 -->
+                  <span class="method-name">testMethod3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod4">
+                  </a> <!-- testMethod4 -->
+                  <span class="method-name">testMethod4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.DependentTestMethods_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod3">
+                  </a> <!-- testMethod3 -->
+                  <span class="method-name">testMethod3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod4">
+                  </a> <!-- testMethod4 -->
+                  <span class="method-name">testMethod4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_listeners.Test_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.Priority_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">practice.PreserveOrder2_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod1">
+                  </a> <!-- testMethod1 -->
+                  <span class="method-name">testMethod1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMethod2">
+                  </a> <!-- testMethod2 -->
+                  <span class="method-name">testMethod2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test_listeners.Test_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method3">
+                  </a> <!-- method3 -->
+                  <span class="method-name">method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">paralleltesting.SingleMethodParallel_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;selenium.SeleniumParallel_Test&quot;/&gt;
+      &lt;class name=&quot;selenium.SeleniumParallel3_Test&quot;/&gt;
+      &lt;class name=&quot;selenium.SeleniumParallel2_Test&quot;/&gt;
+      &lt;class name=&quot;paralleltesting.SingleMethodParallel_Test&quot;/&gt;
+      &lt;class name=&quot;paralleltesting.Parallel2_Test&quot;/&gt;
+      &lt;class name=&quot;paralleltesting.Parallel1_Test&quot;/&gt;
+      &lt;class name=&quot;test_listeners.Test_2&quot;/&gt;
+      &lt;class name=&quot;test_listeners.ExtentReport_Test&quot;/&gt;
+      &lt;class name=&quot;test_listeners.Test_1&quot;/&gt;
+      &lt;class name=&quot;test_listeners.Test_3&quot;/&gt;
+      &lt;class name=&quot;test_listeners.Method_L_Test&quot;/&gt;
+      &lt;class name=&quot;Assertions.MyFirstTest&quot;/&gt;
+      &lt;class name=&quot;Assertions.AssertionsPracticeTest&quot;/&gt;
+      &lt;class name=&quot;HRM.AlertsTest&quot;/&gt;
+      &lt;class name=&quot;HRM.HrmJobsTest&quot;/&gt;
+      &lt;class name=&quot;HRM.HrmLoginTest&quot;/&gt;
+      &lt;class name=&quot;HRM.WindowTabTest&quot;/&gt;
+      &lt;class name=&quot;HRM.iFrameTest&quot;/&gt;
+      &lt;class name=&quot;HRM.HrmEmployeeTest&quot;/&gt;
+      &lt;class name=&quot;data_providers.DataProvider_Test&quot;/&gt;
+      &lt;class name=&quot;data_providers.TestData&quot;/&gt;
+      &lt;class name=&quot;data_providers.TestData2&quot;/&gt;
+      &lt;class name=&quot;practice.Priority_Test&quot;/&gt;
+      &lt;class name=&quot;practice.PreserveOrder1_Test&quot;/&gt;
+      &lt;class name=&quot;practice.Practice_Test&quot;/&gt;
+      &lt;class name=&quot;practice.Grouping_Test&quot;/&gt;
+      &lt;class name=&quot;practice.PreserveOrder2_Test&quot;/&gt;
+      &lt;class name=&quot;practice.Enable_Test&quot;/&gt;
+      &lt;class name=&quot;practice.Parameter_Test&quot;/&gt;
+      &lt;class name=&quot;practice.DependentTestMethods_Test&quot;/&gt;
+      &lt;class name=&quot;listeners.Test_Listener&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (31 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addEmployee</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJobTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_logIn_with_invalid_credentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_logIn_with_valid_credentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addJobTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_logIn_with_valid_credentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">android</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSamsungNote</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">apple</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMacBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">desks</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHPEliteOne</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testYoll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ios</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testIphone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">laptops</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMacBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSurfaceBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">microsoft</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSurfaceBook</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">phones</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testIphone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSamsungNote</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(59);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMethod1')
+data.setCell(0, 2, 'paralleltesting.Parallel1_Test')
+data.setCell(0, 3, 3006);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMethod2')
+data.setCell(1, 2, 'paralleltesting.Parallel2_Test')
+data.setCell(1, 3, 3006);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testMethod2')
+data.setCell(2, 2, 'paralleltesting.Parallel1_Test')
+data.setCell(2, 3, 3004);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMethod1')
+data.setCell(3, 2, 'paralleltesting.Parallel2_Test')
+data.setCell(3, 3, 3002);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'assertMethod')
+data.setCell(4, 2, 'test_listeners.Test_2')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'assertMethod2')
+data.setCell(5, 2, 'test_listeners.Test_2')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMethod3')
+data.setCell(6, 2, 'practice.DependentTestMethods_Test')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMethod1')
+data.setCell(7, 2, 'practice.PreserveOrder2_Test')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'method1')
+data.setCell(8, 2, 'test_listeners.Test_1')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'method3')
+data.setCell(9, 2, 'test_listeners.Test_3')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test2')
+data.setCell(10, 2, 'paralleltesting.SingleMethodParallel_Test')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSurfaceBook')
+data.setCell(11, 2, 'practice.Grouping_Test')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'method1')
+data.setCell(12, 2, 'test_listeners.Method_L_Test')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'method3')
+data.setCell(13, 2, 'test_listeners.Test_3')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'method1')
+data.setCell(14, 2, 'practice.Priority_Test')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMethod4')
+data.setCell(15, 2, 'practice.DependentTestMethods_Test')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMethod4')
+data.setCell(16, 2, 'practice.Enable_Test')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'method1')
+data.setCell(17, 2, 'test_listeners.Test_3')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testMethod3')
+data.setCell(18, 2, 'practice.Enable_Test')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test2')
+data.setCell(19, 2, 'paralleltesting.SingleMethodParallel_Test')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'method3')
+data.setCell(20, 2, 'practice.Priority_Test')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMacBook')
+data.setCell(21, 2, 'practice.Grouping_Test')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMethod2')
+data.setCell(22, 2, 'practice.DependentTestMethods_Test')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'method2')
+data.setCell(23, 2, 'test_listeners.ExtentReport_Test')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testSamsungNote')
+data.setCell(24, 2, 'practice.Grouping_Test')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testMethod1')
+data.setCell(25, 2, 'practice.DependentTestMethods_Test')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testIphone')
+data.setCell(26, 2, 'practice.Grouping_Test')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testMethod2')
+data.setCell(27, 2, 'practice.PreserveOrder1_Test')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testMethod2')
+data.setCell(28, 2, 'practice.PreserveOrder2_Test')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testHPEliteOne')
+data.setCell(29, 2, 'practice.Grouping_Test')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testYoll')
+data.setCell(30, 2, 'practice.Grouping_Test')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'method2')
+data.setCell(31, 2, 'test_listeners.Test_3')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'method2')
+data.setCell(32, 2, 'practice.Priority_Test')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'method3')
+data.setCell(33, 2, 'test_listeners.Test_3')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'method1')
+data.setCell(34, 2, 'test_listeners.ExtentReport_Test')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testMethod1')
+data.setCell(35, 2, 'practice.PreserveOrder1_Test')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test2')
+data.setCell(36, 2, 'paralleltesting.SingleMethodParallel_Test')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'method2')
+data.setCell(37, 2, 'test_listeners.Test_1')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'method2')
+data.setCell(38, 2, 'test_listeners.Method_L_Test')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'parallelM')
+data.setCell(39, 2, 'selenium.SeleniumParallel3_Test')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'parallelSearch')
+data.setCell(40, 2, 'selenium.SeleniumParallel3_Test')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testMethod1')
+data.setCell(41, 2, 'practice.Parameter_Test')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'parallelSearch')
+data.setCell(42, 2, 'selenium.SeleniumParallel_Test')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'parallelM')
+data.setCell(43, 2, 'selenium.SeleniumParallel2_Test')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testMethod1')
+data.setCell(44, 2, 'data_providers.DataProvider_Test')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verify_logIn_with_valid_credentials')
+data.setCell(45, 2, 'HRM.HrmLoginTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyFbTitle')
+data.setCell(46, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyBasicStuff')
+data.setCell(47, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyCity')
+data.setCell(48, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'alertTest')
+data.setCell(49, 2, 'HRM.AlertsTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'handleNewBrowserWindow')
+data.setCell(50, 2, 'HRM.WindowTabTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyMoreBasicStuff')
+data.setCell(51, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'listViewTest')
+data.setCell(52, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verify_logIn_with_invalid_credentials')
+data.setCell(53, 2, 'HRM.HrmLoginTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'iFrameTest')
+data.setCell(54, 2, 'HRM.iFrameTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'addEmployee')
+data.setCell(55, 2, 'HRM.HrmEmployeeTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyLogo')
+data.setCell(56, 2, 'Assertions.AssertionsPracticeTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'nestedIframeTest')
+data.setCell(57, 2, 'HRM.iFrameTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'addJobTitle')
+data.setCell(58, 2, 'HRM.HrmJobsTest')
+data.setCell(58, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSamsungNote</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testSamsungNote</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testSamsungNote</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testIphone</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testIphone</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testIphone</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">assertMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: assertMethod</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: assertMethod</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testHPEliteOne</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testHPEliteOne</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testHPEliteOne</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testYoll</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testYoll</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testYoll</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: test2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: test2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSurfaceBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testSurfaceBook</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testSurfaceBook</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod4</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod4</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod4</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod4</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: test2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: test2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method1</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMethod3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: test2</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: test2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method3</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: method3</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMacBook</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMacBook</span>
+                <span class="reporter-method-output">onTestSuccess -> Test Name: testMacBook</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">assertMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: assertMethod2</span>
+                <span class="reporter-method-output">onTestFailure -> Test Name: assertMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method2</span>
+                <span class="reporter-method-output">onTestFailure -> Test Name: method2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testMethod2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: testMethod2</span>
+                <span class="reporter-method-output">onTestFailure -> Test Name: testMethod2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method2</span>
+                <span class="reporter-method-output">onTestFailure -> Test Name: method2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">method2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestStart -> Test Name: method2</span>
+                <span class="reporter-method-output">onTestFailure -> Test Name: method2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_logIn_with_valid_credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verify_logIn_with_valid_credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFbTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verifyFbTitle</span>
+                <span class="reporter-method-output">onTestStart -> Test Name: verifyLogo</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBasicStuff</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verifyBasicStuff</span>
+                <span class="reporter-method-output">onTestStart -> Test Name: verifyCity</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verifyCity</span>
+                <span class="reporter-method-output">onTestStart -> Test Name: verifyFbTitle</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">alertTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: alertTest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">handleNewBrowserWindow</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: handleNewBrowserWindow</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyMoreBasicStuff</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verifyMoreBasicStuff</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">listViewTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: listViewTest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verify_logIn_with_invalid_credentials</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verify_logIn_with_invalid_credentials</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">iFrameTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: iFrameTest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addEmployee</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: addEmployee</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogo</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: verifyLogo</span>
+                <span class="reporter-method-output">onTestStart -> Test Name: verifyMoreBasicStuff</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">nestedIframeTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: nestedIframeTest</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addJobTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">onTestSkipped -> Test Name: addJobTitle</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">practice.Enable_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testMethod1</span>
+                <br/>
+                <span class="ignored-method-name">testMethod2</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Method_L_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_3</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Assertions.AssertionsPracticeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listViewTest</span>
+                <span class="method-start">94 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.Priority_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.SeleniumParallel_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.SeleniumParallel3_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">112 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">selenium.SeleniumParallel2_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">116 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">paralleltesting.SingleMethodParallel_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.Grouping_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHPEliteOne</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIphone</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMacBook</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">paralleltesting.Parallel2_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">3131 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">paralleltesting.Parallel1_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">6139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">9147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assertMethod</span>
+                <span class="method-start">12153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assertMethod2</span>
+                <span class="method-start">12160 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.ExtentReport_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">12165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method2</span>
+                <span class="method-start">12166 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">12169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=method1 status=SUCCESS method=Test_1.method1()[pri:0, instance:test_listeners.Test_...)</span>
+                <span class="method-start">12170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method2</span>
+                <span class="method-start">12174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=method2 status=FAILURE method=Test_1.method2()[pri:0, instance:test_listeners.Test_...)</span>
+                <span class="method-start">12176 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">12177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method2</span>
+                <span class="method-start">12179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">12180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">12183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">12185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">12186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method3</span>
+                <span class="method-start">12188 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Method_L_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">12189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">method2</span>
+                <span class="method-start">12191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.Grouping_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSamsungNote</span>
+                <span class="method-start">12193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSurfaceBook</span>
+                <span class="method-start">12194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testYoll</span>
+                <span class="method-start">12196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.PreserveOrder2_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">12197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">12199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.Enable_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod3</span>
+                <span class="method-start">12200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod4</span>
+                <span class="method-start">12202 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.DependentTestMethods_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12207 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">12208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">12211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod3</span>
+                <span class="method-start">12214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod4</span>
+                <span class="method-start">12216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">12217 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Assertions.AssertionsPracticeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBasicStuff</span>
+                <span class="method-start">12220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCity</span>
+                <span class="method-start">12222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFbTitle</span>
+                <span class="method-start">12224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogo</span>
+                <span class="method-start">12226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">12227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMoreBasicStuff</span>
+                <span class="method-start">12227 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alertTest</span>
+                <span class="method-start">12231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12232 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.HrmJobsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addJobTitle</span>
+                <span class="method-start">12236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.HrmLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_logIn_with_invalid_credentials</span>
+                <span class="method-start">12240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12241 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_logIn_with_valid_credentials</span>
+                <span class="method-start">12243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12244 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.WindowTabTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleNewBrowserWindow</span>
+                <span class="method-start">12247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12248 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.iFrameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">iFrameTest</span>
+                <span class="method-start">12251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nestedIframeTest</span>
+                <span class="method-start">12253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12254 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HRM.HrmEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">12255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmployee</span>
+                <span class="method-start">12256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12257 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.Priority_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method2</span>
+                <span class="method-start">12260 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">practice.PreserveOrder1_Test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMethod1</span>
+                <span class="method-start">12261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMethod2</span>
+                <span class="method-start">12262 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Method_L_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12263 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12263 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test_listeners.Test_3</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">12264 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

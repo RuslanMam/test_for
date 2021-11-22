@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/gagash/IdeaProjects/untitled2/untitled2/mavenTest/src/test/java/Annotations/BassicAnnotations.java">
+        <classes>
+            <class name="Annotations.BassicAnnotations">
+                <methods>
+                    <include name="login_with_valid_credentials"/>
+                    <include name="login_with_invalid_credentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

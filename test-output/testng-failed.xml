@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="mavenTest(failed)">
+    <classes>
+      <class name="HRM.HrmEmployeeTest">
+        <methods>
+          <include name="addEmployee"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HRM.HrmEmployeeTest -->
+    </classes>
+  </test> <!-- mavenTest(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
